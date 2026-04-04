@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>All American Eats</title> 
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+
+    <body>
+        <header class="site-header">
+            <div class="brand">All American Eats</div>
+
+            <div class="header-search">
+                <input type="text" id="searchBox" placeholder="Search menu items"/>
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <nav class="header-nav">
+                <a href="index.html">Menu</a>
+                <a href="cart.html">Cart</a>
+                <a href="orders.hmtl">Orders</a>
+            </nav>
+            </header>
+
+            <main class="page">
+                <aside class="filters">
+                    <h2>Filters</h2>
+                    <!--Food Filter-->
+                    <label for="categoryFilter">Category</label>
+                    <select id="categoryFilter">
+                        <option value="">All</option>
+                        <option value="">Burgers</option>
+                        <option value="">Wraps</option>
+                        <option value="">Salads</option>
+                    </select>
+<!--Allergen Filter-->
+                    <h3>Exclde Allegens</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" value="Dairy" class="allergenCheckbox"></label>
+                        <label><input type="checkbox" value="Gluten" class="allergenCheckbox"></label>
+                        <label><input type="checkbox" value="Soy" class="allergenCheckbox"></label>
+                        <label><input type="checkbox" value="Nuts" class="allergenCheckbox"></label>
+                    </div>
+<!--Dietary Restrictions Filter-->
+                    <h3>Dietary Restrictions</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" value="Vegetarian" class="dietaryCheckbox">Vegetarian</label>
+                        <label><input type="checkbox" value="Vegan" class="dietaryCheckbox"Vegan></label>
+                        <label><input type="checkbox" value="Gluten Free" class="dietaryCheckbox">Gluten Free</label>
+                    </div>
+
+                    <button id="applyFilterButton">Apply Filters</button>
+                    <button id="resetFiltersButton" class="secondary-button">Reset</button>
+                </aside>
+
+                <h1>Menu</h1>
+                <div id="menuContainer"></div>
+            </section>
+            </main>
+
+            
+    </body>
+</html>
