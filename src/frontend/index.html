@@ -19,7 +19,7 @@
             <nav class="header-nav">
                 <a href="index.html">Menu</a>
                 <a href="cart.html">Cart</a>
-                <a href="orders.hmtl">Orders</a>
+                <a href="orders.html">Orders</a>
             </nav>
             </header>
 
@@ -29,24 +29,24 @@
                     <!--Food Filter-->
                     <label for="categoryFilter">Category</label>
                     <select id="categoryFilter">
-                        <option value="">All</option>
-                        <option value="">Burgers</option>
-                        <option value="">Wraps</option>
-                        <option value="">Salads</option>
+                        <option value="All">All</option>
+                        <option value="Burgers">Burgers</option>
+                        <option value="Wraps">Wraps</option>
+                        <option value="Salads">Salads</option>
                     </select>
 <!--Allergen Filter-->
-                    <h3>Exclde Allegens</h3>
+                    <h3>Exclude Allegens</h3>
                     <div class="checkbox-group">
-                        <label><input type="checkbox" value="Dairy" class="allergenCheckbox"></label>
-                        <label><input type="checkbox" value="Gluten" class="allergenCheckbox"></label>
-                        <label><input type="checkbox" value="Soy" class="allergenCheckbox"></label>
-                        <label><input type="checkbox" value="Nuts" class="allergenCheckbox"></label>
+                        <label><input type="checkbox" value="Dairy" class="allergenCheckbox">Dairy</label>
+                        <label><input type="checkbox" value="Gluten" class="allergenCheckbox">Gluten</label>
+                        <label><input type="checkbox" value="Soy" class="allergenCheckbox">Soy</label>
+                        <label><input type="checkbox" value="Nuts" class="allergenCheckbox">Nuts</label>
                     </div>
 <!--Dietary Restrictions Filter-->
                     <h3>Dietary Restrictions</h3>
                     <div class="checkbox-group">
                         <label><input type="checkbox" value="Vegetarian" class="dietaryCheckbox">Vegetarian</label>
-                        <label><input type="checkbox" value="Vegan" class="dietaryCheckbox"Vegan></label>
+                        <label><input type="checkbox" value="Vegan" class="dietaryCheckbox">Vegan</label>
                         <label><input type="checkbox" value="Gluten Free" class="dietaryCheckbox">Gluten Free</label>
                     </div>
 
@@ -54,6 +54,7 @@
                     <button id="resetFiltersButton" class="secondary-button">Reset</button>
                 </aside>
 
+            <section class="content">
                 <h1>Menu</h1>
                 <div id="menuContainer"></div>
             </section>
