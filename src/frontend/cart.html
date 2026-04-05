@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>All American Eats</title> 
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+
+    <body>
+        <header class="site-header">
+        <a href="index.html">Menu</a>
+        <a href="cart.html"></a>
+        <a href="orders.html">Orders</a>
+        </nav>
+    </header>
+    <main class="page">
+        <section class="content">
+            <h1>Your Cart</h1>
+            <div id="cartContainer">
+                <p>Your cart items are located here</p>
+            </div>
+
+            <div id="cartTotals">
+                <p><strong>Subtotal:</strong> <span id="subtotalValue">$0.00</span></p>
+                <p><strong>Tax:</strong> <span id="taxValue">$0.00</span></p>
+                <p><strong>Delivery Fee:</strong> <span id="deliveryFeeValue">$0.00</span></p>
+                <p><strong>Service Fee:</strong> <span id="serviceFeeValue">$0.00</span></p>
+                <p><strong>Tip:</strong> <span id="tipValue">$0.00</span></p>
+                <h3>Total: <span id="totalValue">$0.00</span></h3>
+            </div>
+
+            <div class="item-actions">
+                <a href="index.html">Continue Shopping</a>
+                <a href="checkout.html">Proceed to Checkout</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>
