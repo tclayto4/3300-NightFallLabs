@@ -1,12 +1,12 @@
 Index.html 
-<!--Header seach to allow users to search for menu items-->
+<!--Header search to allow users to search for menu items-->
             <div class="header-search">
                 <!--Input box for keyword search-->
                 <input type="text" id="searchBox" placeholder="Search menu items"/>
                 <!--Button triggers the search in app.js-->
                 <button id="searchBtn">Search</button>
             </div>
-            <!--Navigation links for swaping pages-->
+            <!--Navigation links for swapping pages-->
             <nav class="header-nav">
                 <a href="index.html">Menu</a>
                 <a href="cart.html">Cart</a>
@@ -115,7 +115,7 @@ Checkout.html
                     <option value="Delivery">Delivery</option>
                     <option value="Pickup">Pickup</option>
                 </select>
-                <!--delivery address required if devlievery is selected-->
+                <!--delivery address required if delivery is selected-->
                 <div id="deliveryAddressGroup">
                     <label for="deliveryAddress">Delivery Address</label>
                     <input type="text" id="deliveryAddress" />
